@@ -1,5 +1,5 @@
 # POLITICS
-This repository contains code, data, and models for the NAACL 2022 findings paper [POLITICS: Pretraining with Same-story Article Comparison for Ideology Prediction and Stance Detection](https://arxiv.org/pdf/2205.00619.pdf).
+This repository contains code, data, and models for the NAACL 2022 findings paper [POLITICS: Pretraining with Same-story Article Comparison for Ideology Prediction and Stance Detection](https://aclanthology.org/2022.findings-naacl.101/).
 
 <i>We are still refactoring and cleaning the codes, please stay tuned and check back later!</i>
 
@@ -22,3 +22,22 @@ POLITICS is shared under CC BY-NC-SA 4.0. The license applies to both data and p
 
 ## Contact
 If you have any questions, please contact Yujian Liu ```<yujianl@umich.edu>``` or Xinliang Frederick Zhang ```<xlfzhang@umich.edu>``` or create a Github issue.
+
+## Citation
+Please cite our paper if you our **POLITICS** model and/or **BIGNEWS** dataset as well as their derivatives from this repo:
+```
+@inproceedings{liu-etal-2022-politics,
+    title = "{POLITICS}: Pretraining with Same-story Article Comparison for Ideology Prediction and Stance Detection",
+    author = "Liu, Yujian  and
+      Zhang, Xinliang Frederick  and
+      Wegsman, David  and
+      Beauchamp, Nicholas  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    pages = "1354--1374",
+}
+```
