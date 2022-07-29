@@ -1,11 +1,15 @@
 # POLITICS
 This repository contains code, data, and models for the NAACL 2022 findings paper [POLITICS: Pretraining with Same-story Article Comparison for Ideology Prediction and Stance Detection](https://aclanthology.org/2022.findings-naacl.101/).
 
-<i>We are still refactoring and cleaning the codes, please stay tuned and check back later!</i>
+<i>We are still refactoring and cleaning the downstream evaluation code, please stay tuned and check back later!</i>
 
 ## What's in this repo?
 - Continue pretrained POLITICS model is available on [Huggingface](https://huggingface.co/launch/POLITICS) with model card ```launch/POLITICS```.
 - Cleaned BIGNEWS, BIGNEWSBLN, and BIGNEWSALIGN are available to download after you fill out [this form](https://forms.gle/uBMoMMoySyV6HcJz5).
+- Code for continued pretraining.
+
+## Continued pretraining
+To retrain POLITICS, simply run ```pretrain.sh```. You need to download the precessed data that contains the indices for entities and sentiment words from [this form](https://forms.gle/uBMoMMoySyV6HcJz5). After downloading, please move the data files and lexicon directory to the ```DATA_DIR``` defined in ```pretrain.sh```.
 
 ## Downstream tasks evaluation
 
