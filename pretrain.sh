@@ -10,7 +10,6 @@ python src/files/pretrain.py --mlm_train_files \
     --per_gpu_mlm_train_batch_size 32 --per_gpu_contra_train_batch_size 16 \
     --mlm_learning_rate 0.0005 --contra_learning_rate 0.0005 --weight_decay 0.01 \
     --num_train_epochs 3 --logging_steps 32 --model_name roberta-base \
-    --output_path ${MODEL_DIR}ent_sent_ideo_story_triplet_roberta_base.pt \
     --mlm_gradient_accumulation_steps 8 --contra_gradient_accumulation_steps 8 \
     --loss_alpha 0.5 --contrast_alpha 0.5 \
     --train_mlm --mask_entity --mask_sentiment \
