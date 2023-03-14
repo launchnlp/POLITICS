@@ -9,7 +9,7 @@ This repository contains code, data, and models for the NAACL 2022 findings pape
 - Code for continued pretraining.
 
 ## Continued pretraining
-To retrain POLITICS, simply run ```pretrain.sh```. You need to download the precessed data that contains the indices for entities and sentiment words from [this form](https://forms.gle/uBMoMMoySyV6HcJz5). After downloading, please move the data files and lexicon directory to the ```DATA_DIR``` defined in ```pretrain.sh```.
+To retrain POLITICS, simply run ```pretrain.sh```. You need to download the precessed data that contains the indices for entities and sentiment words from [this form](https://forms.gle/m2YJX2LZjweHJGDK8). After downloading, please move the data files and lexicon directory to the ```DATA_DIR``` defined in ```pretrain.sh```.
 
 ## Downstream tasks evaluation
 
