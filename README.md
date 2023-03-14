@@ -5,7 +5,7 @@ This repository contains code, data, and models for the NAACL 2022 findings pape
 
 ## What's in this repo?
 - Continue pretrained POLITICS model is available on [Huggingface](https://huggingface.co/launch/POLITICS) with model card ```launch/POLITICS```.
-- Cleaned BIGNEWS, BIGNEWSBLN, and BIGNEWSALIGN are available to download after you fill out [this form](https://forms.gle/uBMoMMoySyV6HcJz5).
+- Cleaned BIGNEWS, BIGNEWSBLN, and BIGNEWSALIGN are available to download after you fill out [this form](https://forms.gle/m2YJX2LZjweHJGDK8).
 - Code for continued pretraining.
 
 ## Continued pretraining
