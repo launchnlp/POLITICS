@@ -3,6 +3,8 @@ This repository contains code, data, and models for the NAACL 2022 findings pape
 
 <i>We are still refactoring and cleaning the downstream evaluation code, please stay tuned and check back later!</i>
 
+<i>Please check out our "sibling project" on [entity-level stance detection](https://github.com/launchnlp/SEESAW) if interested in modeling fine-grained stance detection or entity interaction.</i>
+
 ## What's in this repo?
 - Continue pretrained POLITICS model is available on [Huggingface](https://huggingface.co/launch/POLITICS) with model card ```launch/POLITICS```.
 - Cleaned BIGNEWS, BIGNEWSBLN, and BIGNEWSALIGN are available to download after you fill out [this form](https://forms.gle/m2YJX2LZjweHJGDK8).
