@@ -1,6 +1,8 @@
 # POLITICS
 This repository contains code, data, and models for the NAACL 2022 findings paper [POLITICS: Pretraining with Same-story Article Comparison for Ideology Prediction and Stance Detection](https://aclanthology.org/2022.findings-naacl.101/).
 
+**ALERT:** POLITICS is a pre-trained **language model** that specializes in comprehending news articles and understanding ideological content. However, POLITICS cannot be used **out-of-the-box** on downstream tasks such as predicting ideological leanings and discerning stances expressed in texts. To perform predictions on downstream tasks, you are advised to **fine-tune** POLITICS on your own dataset first.
+
 <i>We are still refactoring and cleaning the downstream evaluation code, please stay tuned and check back later!</i>
 
 <i>Please check out our "sibling project" on [entity-level stance detection](https://github.com/launchnlp/SEESAW) if interested in modeling fine-grained stance detection or entity interaction.</i>
