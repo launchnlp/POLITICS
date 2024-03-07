@@ -11,11 +11,11 @@ This repository contains code, data, and models for the NAACL 2022 findings pape
 
 ## What's in this repo?
 - Continue pretrained POLITICS model is available on [Huggingface](https://huggingface.co/launch/POLITICS) with model card ```launch/POLITICS```.
-- Cleaned BIGNEWS, BIGNEWSBLN, and BIGNEWSALIGN are available to download after you fill out [this form](https://forms.gle/m2YJX2LZjweHJGDK8). **We are facing temporary issues hosting our BIGNEWS dataset and its variants. For the time being, if you are interested in using our dataset, please shoot an email to Frederick at ```<xlfzhang@umich.edu>```.**
+- Cleaned BIGNEWS, BIGNEWSBLN, and BIGNEWSALIGN are available to download after you fill out [this form](https://forms.gle/yRx5ANHKNuj1kgBDA). **We are facing temporary issues hosting our BIGNEWS dataset and its variants. For the time being, if you are interested in using our dataset, please shoot an email to Frederick at ```<xlfzhang@umich.edu>```.**
 - Code for continued pretraining.
 
 ## Continued pretraining
-To retrain POLITICS, simply run ```pretrain.sh```. You need to download the precessed data that contains the indices for entities and sentiment words from [this form](https://forms.gle/m2YJX2LZjweHJGDK8). After downloading, please move the data files and lexicon directory to the ```DATA_DIR``` defined in ```pretrain.sh```.
+To retrain POLITICS, simply run ```pretrain.sh```. You need to download the precessed data that contains the indices for entities and sentiment words from [this form](https://forms.gle/yRx5ANHKNuj1kgBDA). After downloading, please move the data files and lexicon directory to the ```DATA_DIR``` defined in ```pretrain.sh```.
 
 ## Downstream tasks evaluation
 
